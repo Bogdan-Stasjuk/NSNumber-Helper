@@ -19,6 +19,7 @@
 		432E1AEA1920B0C8001FAD00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432E1AD21920B0C8001FAD00 /* UIKit.framework */; };
 		432E1AF21920B0C8001FAD00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 432E1AF01920B0C8001FAD00 /* InfoPlist.strings */; };
 		432E1AF41920B0C8001FAD00 /* NSNumberHelpersExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432E1AF31920B0C8001FAD00 /* NSNumberHelpersExamplesTests.m */; };
+		432E1B001920B109001FAD00 /* NSNumber+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 432E1AFF1920B109001FAD00 /* NSNumber+Helpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		432E1AEF1920B0C8001FAD00 /* NSNumberHelpersExamplesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSNumberHelpersExamplesTests-Info.plist"; sourceTree = "<group>"; };
 		432E1AF11920B0C8001FAD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		432E1AF31920B0C8001FAD00 /* NSNumberHelpersExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNumberHelpersExamplesTests.m; sourceTree = "<group>"; };
+		432E1AFE1920B109001FAD00 /* NSNumber+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Helpers.h"; sourceTree = "<group>"; };
+		432E1AFF1920B109001FAD00 /* NSNumber+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Helpers.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		432E1AC21920B0C8001FAD00 = {
 			isa = PBXGroup;
 			children = (
+				432E1AFD1920B0E8001FAD00 /* NSNumber+Helpers */,
 				432E1AD41920B0C8001FAD00 /* NSNumberHelpersExamples */,
 				432E1AED1920B0C8001FAD00 /* NSNumberHelpersExamplesTests */,
 				432E1ACD1920B0C8001FAD00 /* Frameworks */,
@@ -142,6 +146,15 @@
 				432E1AF01920B0C8001FAD00 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		432E1AFD1920B0E8001FAD00 /* NSNumber+Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				432E1AFE1920B109001FAD00 /* NSNumber+Helpers.h */,
+				432E1AFF1920B109001FAD00 /* NSNumber+Helpers.m */,
+			);
+			path = "NSNumber+Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +254,7 @@
 			files = (
 				432E1ADF1920B0C8001FAD00 /* AppDelegate.m in Sources */,
 				432E1ADB1920B0C8001FAD00 /* main.m in Sources */,
+				432E1B001920B109001FAD00 /* NSNumber+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
