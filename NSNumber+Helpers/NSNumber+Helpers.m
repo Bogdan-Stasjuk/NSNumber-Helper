@@ -9,6 +9,10 @@
 #import "NSNumber+Helpers.h"
 
 
+#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define EmptyString @""
+
+
 @implementation NSNumber (Helpers)
 
 #pragma mark - Public methods
@@ -21,6 +25,31 @@
         return NO;
 
     return !strcmp([number objCType], @encode(double));
+}
+
+#pragma mark -Nonstatic
+
+- (NSString *)doubleToStringWithFormat:(NSNumberFormat)format
+{
+    NSString *formatStr = [self formatString:format];
+    NSString *result = [NSString stringWithFormat:formatStr, self.doubleValue];
+    
+    return result;
+}
+
+
+#pragma mark - Private methods
+
+- (NSString *)formatString:(NSNumberFormat)format
+{
+    switch (format) {
+        case NSNumberFormatP2f:
+            return @"%.2f";
+            
+        default:
+            ALog("There is no string for NSNumberFormat enum's value %i", format);
+            return EmptyString;
+    }
 }
 
 @end
