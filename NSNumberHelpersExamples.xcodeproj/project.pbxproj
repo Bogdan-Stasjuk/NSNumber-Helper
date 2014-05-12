@@ -20,6 +20,7 @@
 		432E1AF21920B0C8001FAD00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 432E1AF01920B0C8001FAD00 /* InfoPlist.strings */; };
 		432E1AF41920B0C8001FAD00 /* NSNumberHelpersExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432E1AF31920B0C8001FAD00 /* NSNumberHelpersExamplesTests.m */; };
 		432E1B001920B109001FAD00 /* NSNumber+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 432E1AFF1920B109001FAD00 /* NSNumber+Helpers.m */; };
+		432E1B031920BDD3001FAD00 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432E1B021920BDD3001FAD00 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		432E1AF31920B0C8001FAD00 /* NSNumberHelpersExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNumberHelpersExamplesTests.m; sourceTree = "<group>"; };
 		432E1AFE1920B109001FAD00 /* NSNumber+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Helpers.h"; sourceTree = "<group>"; };
 		432E1AFF1920B109001FAD00 /* NSNumber+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Helpers.m"; sourceTree = "<group>"; };
+		432E1B011920BDD3001FAD00 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		432E1B021920BDD3001FAD00 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				432E1ADE1920B0C8001FAD00 /* AppDelegate.m */,
 				432E1AE01920B0C8001FAD00 /* Images.xcassets */,
 				432E1AD51920B0C8001FAD00 /* Supporting Files */,
+				432E1B011920BDD3001FAD00 /* TestViewController.h */,
+				432E1B021920BDD3001FAD00 /* TestViewController.m */,
 			);
 			path = NSNumberHelpersExamples;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			files = (
 				432E1ADF1920B0C8001FAD00 /* AppDelegate.m in Sources */,
 				432E1ADB1920B0C8001FAD00 /* main.m in Sources */,
+				432E1B031920BDD3001FAD00 /* TestViewController.m in Sources */,
 				432E1B001920B109001FAD00 /* NSNumber+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,7 +21,7 @@
 
 + (BOOL)isDouble:(NSNumber *)number
 {
-    if (![number isMemberOfClass:[NSNumber class]])
+    if (![number isKindOfClass:[NSNumber class]])
         return NO;
 
     return !strcmp([number objCType], @encode(double));
@@ -47,7 +47,7 @@
             return @"%.2f";
             
         default:
-            ALog("There is no string for NSNumberFormat enum's value %i", format);
+            ALog("There is no string for NSNumberFormat enum's value %lu", format);
             return EmptyString;
     }
 }
