@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             	= "NSNumber+Helpers"
-  s.version          	= "0.1.0"
+  s.version          	= "0.1.1"
   s.summary          	= "A category on NSNumber."
   s.description      	= "A cetogory on NSNumber that extends standard Foundation class functionality."
   s.homepage         	= "https://github.com/Bogdan-Stasjuk/NSNumber-Helpers"
