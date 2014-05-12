@@ -47,7 +47,7 @@
             return @"%.2f";
             
         default:
-            ALog("There is no string for NSNumberFormat enum's value %lu", format);
+            ALog("There is no string for NSNumberFormat enum's value %lu", (unsigned long)format);
             return EmptyString;
     }
 }
