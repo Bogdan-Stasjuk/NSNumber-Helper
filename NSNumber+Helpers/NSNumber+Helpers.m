@@ -19,6 +19,14 @@
 
 #pragma mark -Static
 
++ (BOOL)isInteger:(NSNumber *)number
+{
+    if (![number isKindOfClass:[NSNumber class]])
+        return NO;
+    
+    return !strcmp([number objCType], @encode(int));
+}
+
 + (BOOL)isDouble:(NSNumber *)number
 {
     if (![number isKindOfClass:[NSNumber class]])

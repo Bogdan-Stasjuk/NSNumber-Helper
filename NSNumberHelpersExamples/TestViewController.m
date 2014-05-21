@@ -32,8 +32,11 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
-    NSNumber *number = @(2.54);
-    NSLog(@"is %@ double: %@", number.stringValue, [NSNumber isDouble:number] ? @"YES" : @"NO");
+    NSNumber *numberDouble = @(2.54);
+    NSLog(@"is %@ double: %@", numberDouble.stringValue, [NSNumber isDouble:numberDouble] ? @"YES" : @"NO");
+
+    NSNumber *numberInt = @(2);
+    NSLog(@"is %@ integer: %@", numberInt.stringValue, [NSNumber isInteger:numberInt] ? @"YES" : @"NO");
 }
 
 - (void)didReceiveMemoryWarning
