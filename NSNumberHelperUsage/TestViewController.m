@@ -8,7 +8,7 @@
 
 #import "TestViewController.h"
 
-#import "NSNumber+Helpers.h"
+#import "NSNumber+Helper.h"
 
 
 @interface TestViewController ()

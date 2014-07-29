@@ -1,11 +1,11 @@
 //
-//  NSNumber+Helpers.m
+//  NSNumber+Helper.m
 //
 //  Created by Bogdan Stasjuk on 5/12/14.
 //  Copyright (c) 2014 Bogdan Stasjuk. All rights reserved.
 //
 
-#import "NSNumber+Helpers.h"
+#import "NSNumber+Helper.h"
 
 
 #define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
