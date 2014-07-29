@@ -1,6 +1,5 @@
 //
 //  NSNumber+Helpers.m
-//  NSNumberHelpersExamples
 //
 //  Created by Bogdan Stasjuk on 5/12/14.
 //  Copyright (c) 2014 Bogdan Stasjuk. All rights reserved.
@@ -19,16 +18,14 @@
 
 #pragma mark -Static
 
-+ (BOOL)isInteger:(NSNumber *)number
-{
++ (BOOL)isInteger:(NSNumber *)number {
     if (![number isKindOfClass:[NSNumber class]])
         return NO;
     
     return !strcmp([number objCType], @encode(int));
 }
 
-+ (BOOL)isDouble:(NSNumber *)number
-{
++ (BOOL)isDouble:(NSNumber *)number {
     if (![number isKindOfClass:[NSNumber class]])
         return NO;
 
@@ -37,8 +34,7 @@
 
 #pragma mark -Nonstatic
 
-- (NSString *)doubleToStringWithFormat:(NSNumberFormat)format
-{
+- (NSString *)doubleToStringWithFormat:(NSNumberFormat)format {
     NSString *formatStr = [self formatString:format];
     NSString *result = [NSString stringWithFormat:formatStr, self.doubleValue];
     
@@ -48,8 +44,7 @@
 
 #pragma mark - Private methods
 
-- (NSString *)formatString:(NSNumberFormat)format
-{
+- (NSString *)formatString:(NSNumberFormat)format {
     switch (format) {
         case NSNumberFormatP2f:
             return @"%.2f";

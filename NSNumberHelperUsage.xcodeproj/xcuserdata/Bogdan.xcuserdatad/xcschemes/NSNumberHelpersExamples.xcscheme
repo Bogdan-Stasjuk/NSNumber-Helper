@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "432E1ACA1920B0C8001FAD00"
-               BuildableName = "NSNumberHelpersExamples.app"
-               BlueprintName = "NSNumberHelpersExamples"
-               ReferencedContainer = "container:NSNumberHelpersExamples.xcodeproj">
+               BuildableName = "NSNumberHelperUsage.app"
+               BlueprintName = "NSNumberHelperUsage"
+               ReferencedContainer = "container:NSNumberHelperUsage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "432E1AE51920B0C8001FAD00"
-               BuildableName = "NSNumberHelpersExamplesTests.xctest"
-               BlueprintName = "NSNumberHelpersExamplesTests"
-               ReferencedContainer = "container:NSNumberHelpersExamples.xcodeproj">
+               BuildableName = "NSNumberHelperUsageTests.xctest"
+               BlueprintName = "NSNumberHelperUsageTests"
+               ReferencedContainer = "container:NSNumberHelperUsage.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "432E1ACA1920B0C8001FAD00"
-            BuildableName = "NSNumberHelpersExamples.app"
-            BlueprintName = "NSNumberHelpersExamples"
-            ReferencedContainer = "container:NSNumberHelpersExamples.xcodeproj">
+            BuildableName = "NSNumberHelperUsage.app"
+            BlueprintName = "NSNumberHelperUsage"
+            ReferencedContainer = "container:NSNumberHelperUsage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "432E1ACA1920B0C8001FAD00"
-            BuildableName = "NSNumberHelpersExamples.app"
-            BlueprintName = "NSNumberHelpersExamples"
-            ReferencedContainer = "container:NSNumberHelpersExamples.xcodeproj">
+            BuildableName = "NSNumberHelperUsage.app"
+            BlueprintName = "NSNumberHelperUsage"
+            ReferencedContainer = "container:NSNumberHelperUsage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "432E1ACA1920B0C8001FAD00"
-            BuildableName = "NSNumberHelpersExamples.app"
-            BlueprintName = "NSNumberHelpersExamples"
-            ReferencedContainer = "container:NSNumberHelpersExamples.xcodeproj">
+            BuildableName = "NSNumberHelperUsage.app"
+            BlueprintName = "NSNumberHelperUsage"
+            ReferencedContainer = "container:NSNumberHelperUsage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
