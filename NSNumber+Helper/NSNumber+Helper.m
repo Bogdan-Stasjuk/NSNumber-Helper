@@ -12,7 +12,7 @@
 #define EmptyString @""
 
 
-@implementation NSNumber (Helpers)
+@implementation NSNumber (Helper)
 
 #pragma mark - Public methods
 

@@ -10,7 +10,7 @@ typedef NS_ENUM(NSUInteger, NSNumberFormat) {
 };
 
 
-@interface NSNumber (Helpers)
+@interface NSNumber (Helper)
 
 + (BOOL)isInteger:(NSNumber *)number;
 + (BOOL)isDouble:(NSNumber *)number;

@@ -13,7 +13,7 @@
 		432E1AE81920B0C8001FAD00 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432E1AE71920B0C8001FAD00 /* XCTest.framework */; };
 		432E1AE91920B0C8001FAD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432E1ACE1920B0C8001FAD00 /* Foundation.framework */; };
 		432E1AEA1920B0C8001FAD00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432E1AD21920B0C8001FAD00 /* UIKit.framework */; };
-		43E02D6A1987CFC500F543D3 /* NSNumber+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E02D691987CFC500F543D3 /* NSNumber+Helpers.m */; };
+		43E02D6A1987CFC500F543D3 /* NSNumber+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E02D691987CFC500F543D3 /* NSNumber+Helper.m */; };
 		43E02D761987CFF900F543D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E02D6D1987CFF900F543D3 /* AppDelegate.m */; };
 		43E02D771987CFF900F543D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43E02D6E1987CFF900F543D3 /* InfoPlist.strings */; };
 		43E02D781987CFF900F543D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E02D701987CFF900F543D3 /* Images.xcassets */; };
@@ -38,8 +38,8 @@
 		432E1AD21920B0C8001FAD00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		432E1AE61920B0C8001FAD00 /* NSNumberHelperUsageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSNumberHelperUsageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		432E1AE71920B0C8001FAD00 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		43E02D681987CFC500F543D3 /* NSNumber+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Helpers.h"; sourceTree = "<group>"; };
-		43E02D691987CFC500F543D3 /* NSNumber+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Helpers.m"; sourceTree = "<group>"; };
+		43E02D681987CFC500F543D3 /* NSNumber+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Helper.h"; sourceTree = "<group>"; };
+		43E02D691987CFC500F543D3 /* NSNumber+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Helper.m"; sourceTree = "<group>"; };
 		43E02D6C1987CFF900F543D3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43E02D6D1987CFF900F543D3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		43E02D6F1987CFF900F543D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 		43E02D671987CFC500F543D3 /* NSNumber+Helper */ = {
 			isa = PBXGroup;
 			children = (
-				43E02D681987CFC500F543D3 /* NSNumber+Helpers.h */,
-				43E02D691987CFC500F543D3 /* NSNumber+Helpers.m */,
+				43E02D681987CFC500F543D3 /* NSNumber+Helper.h */,
+				43E02D691987CFC500F543D3 /* NSNumber+Helper.m */,
 			);
 			path = "NSNumber+Helper";
 			sourceTree = "<group>";
@@ -227,7 +227,7 @@
 				43E02D761987CFF900F543D3 /* AppDelegate.m in Sources */,
 				43E02D791987CFF900F543D3 /* main.m in Sources */,
 				43E02D7B1987CFF900F543D3 /* TestViewController.m in Sources */,
-				43E02D6A1987CFC500F543D3 /* NSNumber+Helpers.m in Sources */,
+				43E02D6A1987CFC500F543D3 /* NSNumber+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
