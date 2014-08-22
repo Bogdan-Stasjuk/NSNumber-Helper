@@ -37,6 +37,12 @@
 
     NSNumber *numberInt = @(2);
     NSLog(@"is %@ integer: %@", numberInt.stringValue, [NSNumber isInteger:numberInt] ? @"YES" : @"NO");
+
+    NSString *string = @"some string";
+    NSLog(@"is %@ integer: %@", string, [NSNumber isInteger:string] ? @"YES" : @"NO");
+
+    id object = nil;
+    NSLog(@"is %@ integer: %@", object, [NSNumber isInteger:object] ? @"YES" : @"NO");
 }
 
 - (void)didReceiveMemoryWarning

@@ -12,8 +12,8 @@ typedef NS_ENUM(NSUInteger, NSNumberFormat) {
 
 @interface NSNumber (Helper)
 
-+ (BOOL)isInteger:(NSNumber *)number;
-+ (BOOL)isDouble:(NSNumber *)number;
++ (BOOL)isInteger:(id)object;
++ (BOOL)isDouble:(id)object;
 
 - (NSString *)doubleToStringWithFormat:(NSNumberFormat)format;
 

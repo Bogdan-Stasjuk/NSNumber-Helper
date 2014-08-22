@@ -18,18 +18,12 @@
 
 #pragma mark -Static
 
-+ (BOOL)isInteger:(NSNumber *)number {
-    if (![number isKindOfClass:[NSNumber class]])
-        return NO;
-    
-    return !strcmp([number objCType], @encode(int));
++ (BOOL)isInteger:(id)object {
+    return [object isKindOfClass:[NSNumber class]] && !strcmp([object objCType], @encode(int));
 }
 
-+ (BOOL)isDouble:(NSNumber *)number {
-    if (![number isKindOfClass:[NSNumber class]])
-        return NO;
-
-    return !strcmp([number objCType], @encode(double));
++ (BOOL)isDouble:(id)object {
+    return [object isKindOfClass:[NSNumber class]] && !strcmp([object objCType], @encode(double));
 }
 
 #pragma mark -Nonstatic
