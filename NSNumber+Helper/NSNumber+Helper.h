@@ -7,6 +7,7 @@
 
 typedef NS_ENUM(NSUInteger, NSNumberFormat) {
     NSNumberFormatP2f,
+    NSNumberFormatP3f,
 };
 
 

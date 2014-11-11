@@ -42,6 +42,8 @@
     switch (format) {
         case NSNumberFormatP2f:
             return @"%.2f";
+        case NSNumberFormatP3f:
+            return @"%.3f";
             
         default:
             ALog("There is no string for NSNumberFormat enum's value %lu", (unsigned long)format);
