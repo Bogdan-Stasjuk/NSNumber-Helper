@@ -24,6 +24,7 @@ A cetogory on NSNumber that extends standard Foundation class functionality.
 ```objc
 typedef NS_ENUM(NSUInteger, NSNumberFormat) {
     NSNumberFormatP2f,
+    NSNumberFormatP3f,
 };
 ```
 
