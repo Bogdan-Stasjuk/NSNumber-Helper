@@ -43,6 +43,8 @@
 
     id object = nil;
     NSLog(@"is %@ integer: %@", object, [NSNumber isInteger:object] ? @"YES" : @"NO");
+    
+    NSLog(@"Price: %@", [numberDouble currencyStyleWithLocale:[NSLocale localeWithLocaleIdentifier:@"en_US"]]);
 }
 
 - (void)didReceiveMemoryWarning

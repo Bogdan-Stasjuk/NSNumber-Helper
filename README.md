@@ -16,6 +16,7 @@ A cetogory on NSNumber that extends standard Foundation class functionality.
 
 ```objc
 - (NSString *)doubleToStringWithFormat:(NSNumberFormat)format;
+- (NSString *)currencyStyleWithLocale:(NSLocale *)locale;
 ```
 
 

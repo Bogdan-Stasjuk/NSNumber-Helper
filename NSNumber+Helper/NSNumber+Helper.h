@@ -17,5 +17,6 @@ typedef NS_ENUM(NSUInteger, NSNumberFormat) {
 + (BOOL)isDouble:(id)object;
 
 - (NSString *)doubleToStringWithFormat:(NSNumberFormat)format;
+- (NSString *)currencyStyleWithLocale:(NSLocale *)locale;
 
 @end

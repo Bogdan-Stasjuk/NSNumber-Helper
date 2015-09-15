@@ -35,6 +35,15 @@
     return result;
 }
 
+- (NSString *)currencyStyleWithLocale:(NSLocale *)locale {
+    NSNumberFormatter *numberFormatter = [NSNumberFormatter new];
+    [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
+    [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+    [numberFormatter setLocale:locale];
+    
+    return [numberFormatter stringFromNumber:self];
+}
+
 
 #pragma mark - Private methods
 
